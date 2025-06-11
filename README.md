@@ -1,70 +1,63 @@
-# Getting Started with Create React App
+# iNoteBook
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## description
+A full-stack notes management application demonstrating user authentication, frontend state management, and RESTful API integration.
 
-## Available Scripts
+## structure
+- Frontend: React with Context API for global state.
+- Backend: Node.js with Express.js.
+- Database: MongoDB (NoSQL).
 
-In the project directory, you can run:
+## features
+- User login/signup with token-based auth.
+- CRUD operations on user notes.
+- Real-time note updates using Context API.
+- Mobile-responsive UI.
+- Private user data isolation via token auth.
 
-### `npm start`
+## assumptions
+- Single-page app (SPA) with protected routes.
+- Each user can manage only their own notes.
+- No WYSIWYG editor — plain text notes only.
+- Notes are not encrypted end-to-end (basic security only).
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## usage
+Clone the repo and run the following commands:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Frontend
 
-### `npm test`
+```bash
+cd inotebook
+npm install
+npm start
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+GOALS
+Practice full-stack development.
 
-### `npm run build`
+Implement JWT authentication.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Manage global state without Redux.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Use RESTful principles in backend API design.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+CONTROLS
+Add/edit/delete notes from the dashboard.
 
-### `npm run eject`
+Login to access your personal note space.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Logout to clear session (JWT token).
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+FUTURE IMPROVEMENTS
+Add tags or search functionality.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Convert to TypeScript.
 
-## Learn More
+Deploy frontend and backend on separate hosting (e.g., Vercel + Render).
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Add user profile settings.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## author
+Aashish Yadav – [LinkedIn](https://www.linkedin.com/in/aashish-yadav-b3258a261)
