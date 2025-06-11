@@ -31,6 +31,11 @@ cd inotebook
 npm install
 npm start
 
+## 🔗 Backend Source Code
+
+See: [Backend Folder](./Backend)
+
+
 GOALS
 Practice full-stack development.
 
